@@ -7,6 +7,10 @@
     margin-bottom: 8px;
 }
 
+.accordion__item[open] {
+    padding-bottom: 32px;
+}
+
 .accordion__summary { 
     display: inline-block;
     font-family: "Inter";
@@ -31,3 +35,4 @@
     text-align: left;
 
 }
+
