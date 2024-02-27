@@ -1,7 +1,7 @@
 .header {
+    background-color: var(--white);
     margin: 0;
-    padding:30px;
-    text-align: center;
+    padding:96px 0 77px;
 }
 
 .header__title {
@@ -10,4 +10,5 @@
     font-style: normal;
     font-weight: 500;
     line-height: 64px;
+    color: var(--black);
 } 
