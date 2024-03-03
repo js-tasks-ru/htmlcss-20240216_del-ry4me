@@ -1,9 +1,17 @@
 .container {
-    max-width: 1110px;
+    /*max-width: 1110px;*/
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
     gap: 30px 30px;
+}
+
+.container_grid-style {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
 }

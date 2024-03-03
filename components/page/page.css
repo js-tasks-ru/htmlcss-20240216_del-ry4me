@@ -7,3 +7,9 @@
 .page__main {
     flex-grow: 1;
 }
+
+.page_grid-style {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--white-1);
+}
