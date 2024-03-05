@@ -1,15 +1,11 @@
 .sceleton{
-    padding-top: 24px;
-    padding-left: 20px;
-    padding-bottom: 32px;
+    padding: 24px 40px 32px 20px;
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
     gap: 24px 16px;
-    width: 579px;
-    height: 192px;
     border: 1px solid var(--grey-3);
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .sceleton__circle {
@@ -20,16 +16,8 @@
     background-color: var(--grey-3);
 }
 
-.sceleton__top {
-    margin: auto;
-    margin-left: 0;
-    display: flex;
-    flex-flow: column;
-    align-items: flex-start;
-    gap: 8px;
-}
-
-.sceleton__bottom{
+.sceleton__stripes-container {
+    flex-grow: 1;
     margin: auto;
     margin-left: 0;
     display: flex;
