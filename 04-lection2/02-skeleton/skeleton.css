@@ -1,11 +1,18 @@
 .sceleton{
     padding: 24px 40px 32px 20px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     align-content: flex-start;
-    gap: 24px 16px;
+    row-gap: 16px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
+}
+
+.sceleton__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
 }
 
 .sceleton__circle {
@@ -18,26 +25,24 @@
 
 .sceleton__stripes-container {
     flex-grow: 1;
-    margin: auto;
-    margin-left: 0;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     align-items: flex-start;
     gap: 8px;
+    padding-top: 8px;
 }
 
 .sceleton__bar {
-    flex-basis: auto;
     min-height: 20px;
-    min-width: 172px;
+    min-width: 55%;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     
 }
 
 .sceleton__bar_md {
-    min-width: 257px;
+    min-width: 75%;
 }
 
 .sceleton__bar_lg {
-    min-width: 515px;
+    min-width: 100%;
 }
