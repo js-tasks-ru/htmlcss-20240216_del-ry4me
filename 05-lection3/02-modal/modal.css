@@ -1,4 +1,4 @@
-.modal__wrapper {
+.modal {
     display: none;
     position: fixed;
     top: 0;
@@ -8,13 +8,12 @@
     background-color: var(--grey-4);
 }
 
-.modal {
+.modal__inner {
     position: absolute;
     margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
     max-width: 428px;
     max-height: 294px;
     padding: 12px 12px 33px 40px;
