@@ -48,17 +48,17 @@
 
 .calendar__item_start {
     color: var(--white);
-    background-color: var(--blue-figma);
+    background-color: #4263EB;
 }
 
 .calendar__item_end {
     color: var(--white);
-    background-color: var(--blue-figma);
+    background-color: #4263EB;
 }
 
 .calendar__item_inter {
     color: var(--white);
-    background-color: var(--cal-inter);
+    background-color: #A0B1F5;
 }
 
 .calendar__item_day {
@@ -68,9 +68,5 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--cal-day);
-    align-items: start;
-}
-.calendar__item_hidden {
-    visibility: hidden;
+    color: #A0B1F5;   
 }
