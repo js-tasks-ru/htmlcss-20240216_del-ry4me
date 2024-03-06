@@ -36,3 +36,17 @@
     padding-bottom: 56px;
     padding-top: 92px;
 }
+
+@media screen and (max-width: 400px) {
+    .footer {
+        background-color: var(--grey-3);
+        padding: 100px 0 0 0;
+    }
+    .footer__anouncement {
+        display: none;
+    }
+
+    .footer__title {
+        display: none;
+    }
+}
