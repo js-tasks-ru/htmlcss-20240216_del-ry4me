@@ -31,10 +31,10 @@
     color: var(--grey-4);
 }
 
-.footer_transparent {
-    background-color: transparent;
+.footer_grey {
+    background-color: var(--grey);
     padding-bottom: 56px;
-    padding-top: 92px;
+    padding-top: 24px;
 }
 
 @media screen and (max-width: 400px) {

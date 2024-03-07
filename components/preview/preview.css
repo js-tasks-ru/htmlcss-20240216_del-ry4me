@@ -1,5 +1,5 @@
 .preview {
-    background-color: var(--white-1);
+    background-color: var(--grey);
     padding-top: 68px;
     padding-bottom: 68px;
 }
@@ -8,7 +8,7 @@
 @media screen and (max-width: 400px) {
     
     .preview {
-        background-color: var(--white-1);
+        background-color: var(--grey);
         padding: 24px 15px 0 16px;
     }
 }
