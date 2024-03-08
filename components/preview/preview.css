@@ -4,11 +4,34 @@
     padding-bottom: 68px;
 }
 
+.preview .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 30px 30px;
+}
+
+.preview .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+}
+
 
 @media screen and (max-width: 400px) {
     
     .preview {
-        background-color: var(--grey);
         padding: 24px 15px 0 16px;
+    }
+
+    .preview .container {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        gap: 23px 16px;
+        margin-bottom: 100px;
     }
 }
