@@ -45,3 +45,8 @@
     text-align: left;
     padding-right: 28px;
 }
+
+.modal__close {
+    width: 16px;
+    height: 16px;
+}
