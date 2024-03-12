@@ -1,25 +1,21 @@
 .histogram {
-    display: flex;
-    flex-flow:  row wrap;
-    align-content: self-start;
-    padding: 16px 26px 32px;
+    padding: 16px 24px 24px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
 }
 
 .histogram__top {
-    flex-grow: 1;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
 
 .histogram__bottom {
-    height: 115px;
     flex-basis: 100%;
     display: flex;
-    flex-flow: row wrap;
-    gap: 39px 1px;
+    flex-flow: row nowrap;
+    gap: 1px;
+    margin-top: 39px;
 }
 
 .histogram__text {
@@ -34,19 +30,13 @@
 }
 
 .histogram__number {
-    flex-basis: 100%;
     margin: 6px 0 0 0;
     font-family: "Inter";
     font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 .histogram__link {
     display: inline-block;
-    max-height: 24px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -57,6 +47,7 @@
 }
 
 .histogram__element {
+    height: 50px;
     flex-basis: 9px;
     align-self: flex-end;
     flex-grow: 1;
