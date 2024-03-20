@@ -40,15 +40,16 @@
     background-color: var(--white);
 }
 
-.radio__icon {
-    width: 70%;
-    height: 70%;
+.radio__circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
     color: var(--white);
 }
 
 .radio__input:checked ~ .radio__state
-.radio__icon {
-    color: var(--primary);
+.radio__circle {
+    background-color: var(--primary);
 }
 
 .radio__input:focus ~ .radio__state 
@@ -57,11 +58,11 @@
 }
 
 .radio__input:disabled ~ .radio__state 
-.radio__label {
+/*.radio__label*/ {
     color: var(--grey-2);
     cursor: not-allowed;
 }
-
+/*
 .radio__input:disabled~ .radio__state 
 .radio__control {
     background-color: var(--grey-2);
@@ -69,10 +70,10 @@
 }
 
 .radio__input:disabled~ .radio__state 
-.radio__icon {
+.radio__circle {
     color: var(--grey-2);
     cursor: not-allowed;
 }
-
+*/
 
 
