@@ -41,15 +41,16 @@
     background-color: var(--primary);
 }
 
-.toggle__icon {
+.toggle__circle {
     width: 24px;
     height: 24px;
-    color: var(--grey-2);
+    border-radius: 50%;
+    background-color: var(--grey-2);
 }
 
 .toggle__input:checked ~ .toggle__state
-.toggle__icon {
-    color: var(--white);
+.toggle__circle {
+    background-color: var(--white);
 }
 
 .toggle__input:focus ~ .toggle__state 
@@ -58,11 +59,11 @@
 }
 
 .toggle__input:disabled ~ .toggle__state 
-.toggle__label {
+/*.toggle__label */{
     color: var(--grey-4);
     cursor: not-allowed;
 }
-
+/*
 .toggle__input:disabled ~ .toggle__state 
 .toggle__control {
     background-color: var(--grey-2);
@@ -74,6 +75,6 @@
     color: var(--grey-3);
     cursor: not-allowed;
 }
-
+*/
 
 
