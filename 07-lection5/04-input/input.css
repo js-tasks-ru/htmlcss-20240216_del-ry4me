@@ -36,6 +36,7 @@
     height: 24px;
     top: 50%;
     left: 310px;
+    right: 16px;
     transform: translateY(-50%);
 }
 
@@ -45,10 +46,6 @@
 
 .form-input__icon_invalid {
     color: var(--red);
-}
-
-::placeholder {
-    color: var(--grey-2);
 }
 
 .form-input__input:focus::placeholder {
