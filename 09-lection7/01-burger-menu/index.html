@@ -6,37 +6,31 @@
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
-    <i>
         <label>
-            <button class="burger-menu-open">
+            <button id="burger-menu-open">
                 Open
             </button>
         </label>
         <div class="mobile-menu">
             <div class="mobile-menu__window">
                 <div class="mobile-menu__header">
-                    <label>
-                        <button class="burger-menu-close">
-                            <svg>
+                        <button class="mobile-menu__button" id="burger-menu-close">
+                            <svg class="mobile-menu__icon">
                                 <use href="../../assets/images/icons.svg#cross"></use>
                             </svg>
                         </button>
-                    </label>
                     <svg class="mobile-menu__logo">
                         <use href="../../assets/images/icons.svg#logo"></use>
                     </svg>
                 </div>
                 <p class="mobile-menu__list-header">Components</p>
-                <ul class="mobile-menu__list">
-                    <li class="mobile-menu__list-item">Modal</li>
-                    <li class="mobile-menu__list-item">Tooltip</li>
-                    <li class="mobile-menu__list-item">Avatar</li>
-                    <li class="mobile-menu__list-item">Calendar</li>
-                    <li class="mobile-menu__list-item">Histogram</li>
-                    <li class="mobile-menu__list-item">Custom form elements</li>
-                    <li class="mobile-menu__list-item"></li>
-                    <li class="mobile-menu__list-item">Main page</li>
-                </ul>
+                <a class="mobile-menu__list-item" href="#">Modal</a>
+                <a class="mobile-menu__list-item" href="#">Tooltip</a>
+                <a class="mobile-menu__list-item" href="#">Avatar</a>
+                <a class="mobile-menu__list-item" href="#">Calendar</a>
+                <a class="mobile-menu__list-item" href="#">Histogram</a>
+                <a class="mobile-menu__list-item" href="#">Custom form elements</a>
+                <a class="mobile-menu__list-item" href="#">Main page</a>
             </div>
           </div>
     </body>
