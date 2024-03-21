@@ -4,14 +4,34 @@
     left: 0;
     width: 100vw;
     height: 100vw;
+    background-color: var(--white);
 }
 
 .mobile-menu__window {
     max-width: 375px;
 }
 
-.mobile-menu__button {
+.mobile-menu__control {
+   display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
     height: 24px;
     width: 24px;
-    border: none;
 }
+
+.mobile-menu__button {
+   
+    border: none;
+    border-radius: 50%;
+}
+
+.mobile-menu__icon {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+}
+.mobile-menu__logo {
+    width: 110px;
+    height: 32px;
+ }
