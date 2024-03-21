@@ -6,12 +6,11 @@
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
-        <label>
+    <body>
             <button id="burger-menu-open">
                 Open
             </button>
-        </label>
-        <div class="mobile-menu">
+        <div class="mobile-menu" id="burger-menu">
             <div class="mobile-menu__window">
                 <div class="mobile-menu__header">
                     <label class="mobile-menu__button">
@@ -28,7 +27,8 @@
                         <use href="../../assets/images/icons.svg#logo"></use>
                     </svg>
                 </div>
-                <p class="mobile-menu__list-header">Components</p>
+                <div class="mobile-menu__list">
+                <h4 class="mobile-menu__list-header">Components</h4>
                 <a class="mobile-menu__list-item" href="#">Modal</a>
                 <a class="mobile-menu__list-item" href="#">Tooltip</a>
                 <a class="mobile-menu__list-item" href="#">Avatar</a>
@@ -36,6 +36,7 @@
                 <a class="mobile-menu__list-item" href="#">Histogram</a>
                 <a class="mobile-menu__list-item" href="#">Custom form elements</a>
                 <a class="mobile-menu__list-item" href="#">Main page</a>
+                </div>
             </div>
           </div>
     </body>
