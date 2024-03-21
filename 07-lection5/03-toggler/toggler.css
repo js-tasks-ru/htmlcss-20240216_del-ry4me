@@ -23,7 +23,8 @@
     border-radius: 26px;
     display: flex;
     align-items: center;
-    
+    transition: background-color 500ms linear,
+    border-color 500ms linear;
 }
 
 .toggle__label {
@@ -36,7 +37,7 @@
 
 .toggle__input:checked ~ .toggle__state
 .toggle__control {
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     border-color: var(--primary);
     background-color: var(--primary);
 }
@@ -46,10 +47,13 @@
     height: 24px;
     border-radius: 50%;
     background-color: var(--grey-2);
+    transition: background-color 500ms linear,
+    margin-left 250ms linear;
 }
 
 .toggle__input:checked ~ .toggle__state
 .toggle__circle {
+    margin-left: 28px;
     background-color: var(--white);
 }
 
