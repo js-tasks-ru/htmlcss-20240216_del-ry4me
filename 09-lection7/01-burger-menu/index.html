@@ -7,6 +7,37 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+            <button id="burger-menu-open">
+                Open
+            </button>
+        <div class="mobile-menu" id="burger-menu">
+            <div class="mobile-menu__window">
+                <div class="mobile-menu__header">
+                    <label class="mobile-menu__button">
+                        <input class="mobile-menu__button-input" type="button" id="burger-menu-close">
+                        <div class="mobile-menu__button-state">
+                            <div class="mobile-menu__button-control">
+                                <svg class="mobile-menu__button-icon">
+                                    <use href="../../assets/images/icons.svg#cross"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+                    <svg class="mobile-menu__logo">
+                        <use href="../../assets/images/icons.svg#logo"></use>
+                    </svg>
+                </div>
+                <div class="mobile-menu__list">
+                <h4 class="mobile-menu__list-header">Components</h4>
+                <a class="mobile-menu__list-item" href="#">Modal</a>
+                <a class="mobile-menu__list-item" href="#">Tooltip</a>
+                <a class="mobile-menu__list-item" href="#">Avatar</a>
+                <a class="mobile-menu__list-item" href="#">Calendar</a>
+                <a class="mobile-menu__list-item" href="#">Histogram</a>
+                <a class="mobile-menu__list-item" href="#">Custom form elements</a>
+                <a class="mobile-menu__list-item" href="#">Main page</a>
+                </div>
+            </div>
+          </div>
     </body>
 </html>
