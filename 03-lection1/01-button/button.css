@@ -21,7 +21,9 @@
 .button_primary {
     background-color: var(--primary);
     color: var(--white);
-    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;   
+    transition: opacity 200ms ease-in-out,
+                background-color 200ms ease-in-out,
+                transform 200ms linear;   
 }
 
 .button_primary:hover {
@@ -31,12 +33,15 @@
 
 .button_primary:active {
     background-color: var(--error);
+    transform: translateY(5px);
 }
 
 .button_secondary {
     background-color: var(--purple);
     color: var(--white);
-    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out, 
+                background-color 200ms ease-in-out, 
+                transform 200ms linear;
 }
 
 .button_secondary:hover {
@@ -45,13 +50,16 @@
 
 .button_secondary:active {
     background-color: var(--pink);
+    transform: translateY(5px);
 }
 
 .button_alternate {
     background-color: var(--white);
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
-    transition: opacity 200ms ease-in-out, border-color 200ms ease-in-out ;
+    transition: opacity 200ms ease-in-out, 
+                        border-color 200ms ease-in-out, 
+                        transform 200ms linear ;
 }
 
 .button_alternate:hover {
@@ -62,6 +70,7 @@
 .button_alternate:active {
     background-color: var(--primary);
     color: var(--white);
+    transform: translateY(5px);
 }
 
 
