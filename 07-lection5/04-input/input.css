@@ -5,6 +5,7 @@
 }
 
 .form-input__state {
+    display: inline-flex;
     position: relative;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .form-input__input {
-    width: 350px;
+    flex-grow: 1;
     height: 56px;
     border: 1px solid var(--grey-2);
     border-radius: 10px;    
@@ -35,7 +36,7 @@
     width: 24px;
     height: 24px;
     top: 50%;
-    left: 310px;
+    /*left: 310px;*/
     right: 16px;
     transform: translateY(-50%);
 }
