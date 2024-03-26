@@ -1,0 +1,43 @@
+.sidebar {
+    max-width: 229px;
+    background-color: transparent;
+    /*margin-top: 36px;
+    margin-left: 165px;*/
+}
+
+.sidebar__title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 16px;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: left;
+}
+
+.sidebar__menu-element {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sidebar__menu-element_hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 400px) {
+    
+    .sidebar {
+        display: none;
+    }
+}
