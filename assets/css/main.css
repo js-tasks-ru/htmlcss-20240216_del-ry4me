@@ -26,6 +26,7 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --bg-main: var(--white)
 }
 
 * {
