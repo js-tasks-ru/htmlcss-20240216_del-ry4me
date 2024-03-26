@@ -1,0 +1,12 @@
+.theme-changer {
+    display: inline-flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-changer__icon {
+    color: var(--grey-2);
+    width: 24px;
+    height: 24px;
+}
