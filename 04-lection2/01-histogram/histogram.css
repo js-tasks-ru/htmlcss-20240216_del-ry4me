@@ -5,8 +5,8 @@
 }
 
 .histogram__top {
-   display: flex;
-   flex-flow: row nowrap;
+       display: flex;
+    flex-flow: row nowrap;
 }
 
 .histogram__bottom {
@@ -71,6 +71,7 @@
     0% {
         height: 0;
     }
+
     100% {
         height: height;
     }
