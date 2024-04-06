@@ -64,15 +64,16 @@
 }
 
 .histogram__bottom /*.histogram__element*/ {
+    transform-origin: bottom center;
     animation: height 500ms ease-in;
 }
 
 @keyframes height {
     0% {
-        padding-top: 50px;
+        transform: scaleY(0);
+        
     }
-
     100% {
-        padding-top: 0; 
+        transform: scaleY(1);
     }
 }
