@@ -5,8 +5,8 @@
 }
 
 .histogram__top {
-   display: flex;
-   flex-flow: row nowrap;
+       display: flex;
+    flex-flow: row nowrap;
 }
 
 .histogram__bottom {
@@ -40,7 +40,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
-    color: #4263EB;
+    color: var(--primary);
     margin-top: 3px;
 }
 
@@ -48,7 +48,7 @@
     flex-basis: 9px;
     align-self: flex-end;
     flex-grow: 1;
-    background-color: #4263EB;
+    background-color: var(--primary);
 }
 
 .histogram__element_100height {
@@ -61,4 +61,19 @@
 
 .histogram__element_20height {
     height: 20%;
+}
+
+.histogram__bottom /*.histogram__element*/ {
+    transform-origin: bottom center;
+    animation: height 500ms ease-in;
+}
+
+@keyframes height {
+    0% {
+        transform: scaleY(0);
+        
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
