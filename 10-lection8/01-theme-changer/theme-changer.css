@@ -11,11 +11,4 @@
     height: 24px;
 }
 
-html {
-    background-color: var(--bg-html);
-}
-
-html[data-theme-dark] {
-    --bg-html: var(--black);
-}
 

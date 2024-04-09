@@ -2,10 +2,14 @@
 <!-- Пример использования theme-changer -->
 <html lang="ru">
     <head>
-       <!-- <style>
+        <style>
+            html {
+                background-color: var(--bg-html);
+            }
+
             html[data-theme-dark] {
-                background: #000;
-            }-->
+                --bg-html: var(--black);
+            }
         </style>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./theme-changer.css">
