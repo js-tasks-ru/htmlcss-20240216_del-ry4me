@@ -78,6 +78,7 @@
 @keyframes shadow {
     0% {
         border: solid 1px rgba(55, 79, 199, 1);
+        border-radius: 0;
     }
 
     100% {
