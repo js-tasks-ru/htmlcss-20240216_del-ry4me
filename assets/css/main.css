@@ -4,6 +4,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/main/main.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../07-lection5/03-toggler/toggler.css';
 
 :root {
     --white: #ffffff;
@@ -26,6 +27,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --bg-main: var(--white);
+    --bg-html: var(var(--white))
 }
 
 * {

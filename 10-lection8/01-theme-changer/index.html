@@ -3,13 +3,40 @@
 <html lang="ru">
     <head>
         <style>
+            html {
+                background-color: var(--bg-html);
+            }
+
             html[data-theme-dark] {
-                background: #000;
+                --bg-html: var(--black);
             }
         </style>
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./theme-changer.css">
         <script defer src="./theme-changer.js"></script>
     </head>
     <body>
-        <input type="checkbox" id="theme-changer">
+        <div class="theme-changer">
+            <svg class="theme-changer__icon">
+                <use href="../../assets/images/icons.svg#sun"></use>
+            </svg>
+            <label class="toggle">
+                <input class="toggle__input" type="checkbox" id="theme-changer">
+                <div class="toggle__state">
+                    <div class="toggle__control">
+                        <!--<svg class="toggle__icon">
+                            <use href="../../assets/images/icons.svg#toggle_circle"></use>
+                        </svg>-->
+                        <div class="toggle__circle"></div>
+                    </div>
+                   <!-- <div class="toggle__label">
+                        Off
+                    </div>-->
+                </div>
+            </label>
+        <svg class="theme-changer__icon">
+            <use href="../../assets/images/icons.svg#moon"></use>
+        </svg>
+        </div>
     </body>
 </html>
